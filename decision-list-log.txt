@@ -1,0 +1,4 @@
+$ script decision-list-log.txt
+$ python decision-list.py line-train.xml line-test.xml my-decision-list.txt my-line-answers.txt
+$ python scorer.py my-line-answers.txt line-answers.txt
+$ exit
